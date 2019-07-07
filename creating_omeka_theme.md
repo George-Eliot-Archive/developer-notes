@@ -1,7 +1,8 @@
 # Creating/Modifying Omeka theme
 Technology required:
 * HTML/CSS
-* PHP
+* PHP  
+
 Recommended: 
 * SASS
 * JavaScript  
