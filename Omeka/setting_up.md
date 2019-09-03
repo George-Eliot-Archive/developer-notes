@@ -4,7 +4,7 @@ Technology required:
 
 ## Setting up Omeka Locally
 1. Download and unzip Omeka: https://omeka.org/classic/download/
-1. Move the downloaded folder into htdocs under /Applications/XAMPP/xamppfiles/htdocs  
+1. Move the downloaded folder into htdocs under /Applications/XAMPP/xamppfiles/htdocs for Mac OS, and C:/XAMPP/xamppfiles/htdocs for Windows
   _Recommended: rename the file to something easy to remember/type_
 1. Navigate to the localhost dashboard by typing "localhost" on your browser  
   _You may need to try "localhost/dashboard"_
