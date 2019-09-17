@@ -41,7 +41,6 @@ The basic structure of an Omeka page consists of a header, body, and the footer.
 1. You may also want to consider overriding views rendered by plugins. 
 1. Once the PHP code has been rendered, it can be interacted with through JavaScript like any regular HTML page.
 
-
 ## Resources  
 * Banner (PSD): https://unl.app.box.com/file/487181635936
 * Omeka developer documentation: https://omeka.readthedocs.io/en/latest/

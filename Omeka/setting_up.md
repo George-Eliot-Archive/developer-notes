@@ -13,7 +13,7 @@ Technology required:
 1. Create a database with a desired name
 1. Click on the SQL tab
 1. Making sure that the new database is selected, copy and paste in the following. Replace 'username' and 'password' to whatever username and password you want to use
-  ![db](/images/db.png)
+  ![db](images/db.png)
     ```SQL
     CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
     GRANT ALL PRIVILEGES ON * . * TO 'username'@'localhost';
