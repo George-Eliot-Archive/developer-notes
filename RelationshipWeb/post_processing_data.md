@@ -24,10 +24,5 @@ To fix this, manually run find and replace all. All text that requires find and 
 |Felix Holt, the Radical|`<i>`Felix Holt, the Radical`</i>`|
 |Every Man in his Humor|`<i>`Every Man in his Humor`</i>`|
 |Autobiography of a Shirtmaker|`<i>`Autobiography of a Shirtmaker`</i>`|
-|�|,|
-|||
-
-## Manual fix
-| Find  | Replace |
-|---|---|
 |Fran�is|François|
+|�|,|
