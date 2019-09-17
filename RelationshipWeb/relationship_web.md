@@ -4,6 +4,11 @@ Technology required:
 * JavaScript
 * D3.JS
 
+## Structure
+
+## "Post processing" data
+See `post_processing_data.md`
+
 ## Known Bugs
 
 ## Resources
