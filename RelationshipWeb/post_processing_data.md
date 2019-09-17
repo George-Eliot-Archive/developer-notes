@@ -25,7 +25,7 @@ To fix this, manually run find and replace all. All text that requires find and 
 |Every Man in his Humor|`<i>`Every Man in his Humor`</i>`|
 |Autobiography of a Shirtmaker|`<i>`Autobiography of a Shirtmaker`</i>`|
 |Fran�ois|François|
-|�|,|
+|�|' `//single quote`|
 |Das Leben Jesu|`<i>`Das Leben Jesu`</i>`|
 |Railway Sketches|`<i>`Railway Sketches`</i>`|
 |All the Year Round|`<i>`All the Year Round`</i>`|
