@@ -29,3 +29,7 @@ To fix this, manually run find and replace all. All text that requires find and 
 |Das Leben Jesu|`<i>`Das Leben Jesu`</i>`|
 |Railway Sketches|`<i>`Railway Sketches`</i>`|
 |All the Year Round|`<i>`All the Year Round`</i>`|
+|A Biographical History of Philosophy|`<i>`A Biographical History of Philosophy`</i>`|
+|Problems of Life and Mind|`<i>`Problems of Life and Mind`</i>|
+|The Fortnightly Review|`<i>`The Fortnightly Review`</i>`|
+|The Cornhill Magazine|`<i>`The Cornhill Magazine`<i>`|
