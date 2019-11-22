@@ -18,6 +18,10 @@ Technology required:
     CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
     GRANT ALL PRIVILEGES ON * . * TO 'username'@'localhost';
     ```
+    _If an error creating the user persists, try dropping the user first:_
+    ```SQL
+    DROP USER 'username'@'localhost';
+    ```
 1. Change permissions to the omeka installation
     ```shell
     chmod -R 767 path/to/omeka/installation
@@ -36,6 +40,12 @@ Technology required:
 1. Navigate to your omeka instance on your browser by typing localhost/YourOmekaInstallation, and complete set up as prompted.
 
 ## Troubleshooting
+* Enable debug messages on the UI:
+  1. Locate .htaccess in the root of the application
+  1. Find and uncomment: 
+    ```
+    SetEnv APPLICATION_ENV development
+    ```
 * Zend_File_Transfer_Exception ‘The given destination is not writable’ error
   1. Create a directory "tmp" under the root directory of the Omeka installation.
   1. Add the following to application/config/config.ini
