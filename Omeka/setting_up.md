@@ -52,3 +52,4 @@ Technology required:
   ```
   storage.tempDir = "/tmp"
   ```
+* Other weird Zend bugs appearing randomly for no good reason? No idea why that happens, but the classic developer trick of uninstalling and reinstalling Omeka again seems to do the job ¯\_(ツ)_/¯ 
