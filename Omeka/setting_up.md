@@ -26,9 +26,9 @@ Technology required:
     ```
     [database]
     host     = "localhost"
-    username = "YourUserNameFromStep9"
-    password = "YourPasswordFromStep9"
-    dbname   = "YourDatabaseFromStep7"
+    username = "YourUserNameFromStep8"
+    password = "YourPasswordFromStep8"
+    dbname   = "YourDatabaseFromStep6"
     prefix   = "omeka_"
     charset  = "utf8"
     ;port     = ""
