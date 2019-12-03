@@ -29,16 +29,28 @@ The `index.html` file contains the `div` element container for the relationship 
 ### Reading data
 The data is processed through the D3.js library's asynchronous `csv` function, and appended as a JSON to a global array. After all lines of data has been processed, the JSON array is used to populate the dropdown list in the toggleable menu, as well as a base for the force graph used in D3.js. Individuals are assigned arbitrary ids based on the order they were read in. This id is used to map images and maintaining order.
 
+Nodes are structured under a "g" group element. Each node is assigned an id based on the individual's id. A node group is structured as follows:
+```
+grouop
+  circle
+  text //upon hover
+  group (searched text)  //upon search
+```
+
 ### Images
 SVG elements cannot use images as backgrounds. Consequently, images themselves must first be processed and treated as sort of SVG elements themselves. The portraits are pre-cropped into circles, since it is very difficult and convoluted to clip images to exact sizes through SVGs.
 
 All images are read from the directory `data/images/png` and stored as `pattern` elements within the main svg element containing the relationship web following the naming convention `image_#`. Individuals who do not have images paths defined in the data csv are given default images based on their relationship status. 
 
+### Biography
+The biographies are appended to the toggleable menu as small svg elements. As a node is clicked, data is read from the node, processed as a new SVG, and appended.
+
 ## "Post processing" data
 See `post_processing_data.md`
 
 ## Debugging
-Debugging this relationship web may be challenging and frustrating. Because data points are updating at every "tick"
+Debugging this relationship web may be challenging and frustrating. In general, a good data point to keep an eye on for debugging purposes is to keep track of nodes' cx and cy positions.
+
 ## Known Bugs
 1. Hovering names are clipped nodes placed too close to the edge
 
