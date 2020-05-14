@@ -1,6 +1,6 @@
 # Setting up Omeka
 Technology required:
-* XAMPP
+* XAMPP (version 5.6.3 or above)
 
 ## Setting up Omeka Locally
 1. Download and unzip Omeka: https://omeka.org/classic/download/
